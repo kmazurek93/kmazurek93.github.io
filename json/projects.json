@@ -1,0 +1,77 @@
+[
+  {
+    "name": "DSIK-2015-SL",
+    "description": "Simple FTP Client",
+    "techs": [
+      "Java",
+      "Sockets"
+    ],
+    "type": "student project",
+    "date": "2015-05-01",
+    "longDesc": ""
+  },
+  {
+    "name": "dira-2016",
+    "description": "RESTful Webservice for simple conference management",
+    "techs": [
+      "Spring Boot",
+      "Jersey",
+      "Hibernate",
+      "MySQL"
+    ],
+    "type": "student project",
+    "date": "2016-05-10",
+    "longDesc": ""
+  },
+  {
+    "name": "dpwu-2016",
+    "description": "Simple app for managing tasklist",
+    "techs": [
+      "C#",
+      "Windows Universal"
+    ],
+    "type": "student project",
+    "date": "2016-05-18",
+    "longDesc": ""
+  },
+  {
+    "name": "dszi-2016",
+    "description": "Project for AI subject",
+    "techs": [
+      "Java",
+      "WEKA",
+      "A*"
+    ],
+    "type": "student project",
+    "date": "2016-05-23"
+  },
+  {
+    "name": "electronic-cash",
+    "description": "Electronic cash using Spring and REST",
+    "techs": [
+      "Java",
+      "Spring Boot",
+      "BouncyCastle"
+    ],
+    "type": "student project",
+    "date": "2016-11-03",
+    "longDesc": "Implementation of a electronic cash protocol. Alice: gets banknote. Bob: accepts banknote. Merlin (bank): verifies banknote"
+  },
+  {
+    "name": "przychodnia-server",
+    "description": "Engineering project 'Clinic'",
+    "techs": [
+      "Java",
+      "Spring Boot",
+      "Hibernate",
+      "MySQL",
+      "JUnit",
+      "Jersey",
+      "Lombok"
+    ],
+    "longDesc": "",
+    "date": "2017-01-12",
+    "type": "student project"
+  }
+]
+

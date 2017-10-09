@@ -190,9 +190,70 @@ hr.complement {
     border-color: transparent;
     font-size: 18px;
 }
-.list-group-item > span {
+.list-group-item > span:not(.tech):not(.item-desc) {
     font-size: 18px;
     background-color: #6E81AD;
     color: #004040;
     border-color: #6E81AD;
+}
+.mouse-pointer {
+    cursor: pointer;
+}
+li.list-group-item > span.tech:last-of-type:after {
+    content: ".";
+    background-color: transparent;
+    border-color: transparent;
+    color: inherit;
+}
+li.list-group-item > span.tech:after {
+    content: ", ";
+    background-color: transparent;
+    border-color: transparent;
+    color: inherit;
+}
+.bold {
+    font-weight: bold;
+}
+.normal {
+    font-weight: normal;
+}
+
+@media(max-width:767px)
+{
+
+}
+@media(min-width:768px)and (max-width: 992px)
+{
+    .summary > h1 {
+        font-size: 30px;
+    }
+    .summary > h3 {
+        font-size: 18px;
+    }
+}
+@media(min-width:992px) and (max-width: 1199px)
+{
+    .summary > h1 {
+        font-size: 30px;
+    }
+    .summary > h3 {
+        font-size: 18px;
+    }
+}
+@media(min-width:1200px) and (max-width: 1524px)
+{
+    .summary > h1, .skills > h1 {
+        font-size: 30px;
+    }
+    .summary > h3 {
+        font-size: 18px;
+    }
+    .list-group-item, .list-group-item > span {
+        font-size: 14px;
+    }
+    .list-group-item.projects, .list-group-item.projects > span {
+        font-size: 14px;
+        padding: 5px;
+    }
+
 }
