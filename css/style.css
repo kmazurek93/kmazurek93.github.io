@@ -171,6 +171,7 @@ hr.complement {
     height: 100%;
     width: 100%;
 }
+
 .min-height-50 {
     min-height: 50%;
 }
@@ -210,6 +211,17 @@ li.list-group-item > span.tech:after {
     background-color: transparent;
     border-color: transparent;
     color: inherit;
+}
+
+li.list-group-item > span.item-desc > a {
+    color: #ffb206;
+}
+li.list-group-item > span.item-desc > a:hover {
+    text-decoration: underline;
+}
+li.list-group-item > span.item-desc > a:visited {
+    color: #956B18;
+
 }
 .bold {
     font-weight: bold;
