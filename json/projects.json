@@ -1,16 +1,5 @@
 [
   {
-    "name": "DSIK-2015-SL",
-    "description": "Simple FTP Client",
-    "techs": [
-      "Java",
-      "Sockets"
-    ],
-    "type": "student project",
-    "date": "2015-05-01",
-    "longDesc": ""
-  },
-  {
     "name": "dira-2016",
     "description": "RESTful Webservice for simple conference management",
     "techs": [
